@@ -1,17 +1,17 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
+﻿Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DxSample", ".", "{E17D4571-1A01-4C00-B58C-F1AA06D037A0}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/DxSample"
-		Debug.AspNetCompiler.PhysicalPath = "..\DxSample\"
+		Debug.AspNetCompiler.PhysicalPath = "."
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DxSample\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/DxSample"
-		Release.AspNetCompiler.PhysicalPath = "..\DxSample\"
+		Release.AspNetCompiler.PhysicalPath = "."
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DxSample\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
