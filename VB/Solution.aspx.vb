@@ -4,7 +4,7 @@ Imports System.Linq
 Imports System.Web
 Imports System.Web.UI
 Imports System.Web.UI.WebControls
-Imports DevExpress.Web.ASPxEditors
+Imports DevExpress.Web
 
 Partial Public Class Solution
     Inherits System.Web.UI.Page
@@ -16,7 +16,7 @@ Partial Public Class Solution
         ASPxTextBox2_1.ClientVisible = comboBoxValue <> 1
         ASPxTextBox2_2.ClientVisible = comboBoxValue <> 1
     End Sub
-    Protected Sub ASPxTextBox_Validation(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxEditors.ValidationEventArgs)
+    Protected Sub ASPxTextBox_Validation(ByVal sender As Object, ByVal e As DevExpress.Web.ValidationEventArgs)
         Dim tb As ASPxTextBox = TryCast(sender, ASPxTextBox)
         If Not tb.ClientVisible Then
             e.IsValid = True

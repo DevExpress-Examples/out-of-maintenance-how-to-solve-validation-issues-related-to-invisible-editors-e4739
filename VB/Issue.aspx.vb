@@ -2,7 +2,7 @@
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Web.UI.WebControls
-Imports DevExpress.Web.ASPxEditors
+Imports DevExpress.Web
 
 Partial Public Class Issue
     Inherits System.Web.UI.Page

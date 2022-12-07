@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using DevExpress.Web.ASPxEditors;
+using DevExpress.Web;
 
 public partial class Solution : System.Web.UI.Page
 {
@@ -16,7 +16,7 @@ public partial class Solution : System.Web.UI.Page
 		ASPxTextBox2_1.ClientVisible = comboBoxValue != 1;
 		ASPxTextBox2_2.ClientVisible = comboBoxValue != 1;
     }
-	protected void ASPxTextBox_Validation(object sender, DevExpress.Web.ASPxEditors.ValidationEventArgs e) {
+	protected void ASPxTextBox_Validation(object sender, DevExpress.Web.ValidationEventArgs e) {
 		ASPxTextBox tb = sender as ASPxTextBox;
 		if(!tb.ClientVisible){
 			e.IsValid  = true;

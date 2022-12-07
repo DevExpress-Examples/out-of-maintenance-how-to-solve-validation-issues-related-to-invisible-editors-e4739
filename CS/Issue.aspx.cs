@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.UI.WebControls;
-using DevExpress.Web.ASPxEditors;
+using DevExpress.Web;
 
 public partial class Issue : System.Web.UI.Page
 {
